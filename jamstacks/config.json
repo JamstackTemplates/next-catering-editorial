@@ -1,0 +1,19 @@
+{
+  "name": "Saffron & Linen Catering",
+  "description": "Editorial food-magazine design for an event caterer: compare menus, dietary marks, guest minimums and delivery zones before requesting a quote.",
+  "tech": "next",
+  "type": "catering",
+  "style": "editorial",
+  "internal": false,
+  "components": [
+    "support-form"
+  ],
+  "configFile": "site.config.json",
+  "screenshots": {
+    "light": "jamstacks/home-light.jpg",
+    "dark": "jamstacks/home-dark.jpg",
+    "theme": {
+      "strategy": "media"
+    }
+  }
+}

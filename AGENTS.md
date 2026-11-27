@@ -65,6 +65,18 @@ export when changing the embed, base paths or canonical URLs. Check light/dark a
 widths and keyboard links. Add meaningful tests for behavior, including frequent owner edits. Report local checks
 separately from deployments or message delivery. Update README when owner-facing behavior changes.
 
+## File ownership
+
+- `content/business.ts` — shared business details, issue line, office hours, allergen statement and enquiry copy
+- `content/dietary.ts` — five dietary roundel marks and validation
+- `content/zones.ts` — four delivery zones, districts, fees and validation
+- `content/menus.ts` — seven catering menus, dishes, pricing helpers and validation
+- `lib/menu-finder.ts` — menu filtering, effective zone minimums and URL query serialisation
+- `lib/postcode.ts` — UK outward postcode normalisation and zone look-up
+- `lib/structured-data.ts` — `FoodEstablishment` JSON-LD derived from content
+- `components/artwork.tsx`, `components/icons.tsx`, `components/dividers.tsx` — bespoke inline SVG editorial art, vignettes, icons and dividers
+- `app/page.tsx`, `app/menus/page.tsx`, `app/delivery/page.tsx`, `app/kitchen/page.tsx`, `app/contact/page.tsx`, `app/not-found.tsx` — page-specific copy and section composition
+
 ## Template publishing assets
 
 The entire jamstacks/ folder is source-gallery-only and removable. Customer code, normal tests, builds
